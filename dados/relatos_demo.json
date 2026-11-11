@@ -1,0 +1,14 @@
+{
+  "total": 9,
+  "relatos": [
+    {"id":"DEMO-001","lat":-23.560345,"lon":-46.650508,"status":"pendente","severidade":"alta","confirmacoes":4,"confianca_max":0.91,"origem":"demonstracao","prioridade":9.0,"criado_em":"2026-11-01T10:00:00+00:00"},
+    {"id":"DEMO-002","lat":-23.561445,"lon":-46.651208,"status":"confirmado","severidade":"media","confirmacoes":3,"confianca_max":0.83,"origem":"demonstracao","prioridade":5.17,"criado_em":"2026-11-02T11:00:00+00:00"},
+    {"id":"DEMO-003","lat":-23.559445,"lon":-46.649308,"status":"pendente","severidade":"baixa","confirmacoes":1,"confianca_max":0.65,"origem":"demonstracao","prioridade":1,"criado_em":"2026-11-02T13:00:00+00:00"},
+    {"id":"DEMO-004","lat":-23.558745,"lon":-46.649008,"status":"resolvido","severidade":"alta","confirmacoes":2,"confianca_max":0.88,"origem":"demonstracao","prioridade":6,"criado_em":"2026-11-03T09:00:00+00:00"},
+    {"id":"DEMO-005","lat":-23.561745,"lon":-46.651808,"status":"descartado","severidade":"baixa","confirmacoes":1,"confianca_max":0.61,"origem":"demonstracao","prioridade":1,"criado_em":"2026-11-04T10:00:00+00:00"},
+    {"id":"DEMO-006","lat":-23.558245,"lon":-46.650908,"status":"pendente","severidade":"alta","confirmacoes":2,"confianca_max":0.87,"origem":"demonstracao","prioridade":6,"criado_em":"2026-11-05T11:00:00+00:00"},
+    {"id":"DEMO-007","lat":-23.560415,"lon":-46.650508,"status":"pendente","severidade":"alta","confirmacoes":1,"confianca_max":0.78,"origem":"demonstracao","prioridade":3,"criado_em":"2026-11-05T12:00:00+00:00"},
+    {"id":"DEMO-008","lat":-23.558845,"lon":-46.652008,"status":"confirmado","severidade":"media","confirmacoes":2,"confianca_max":0.76,"origem":"demonstracao","prioridade":4,"criado_em":"2026-11-06T10:00:00+00:00"},
+    {"id":"DEMO-009","lat":-23.562445,"lon":-46.650008,"status":"resolvido","severidade":"baixa","confirmacoes":1,"confianca_max":0.70,"origem":"demonstracao","prioridade":1,"criado_em":"2026-11-07T08:00:00+00:00"}
+  ]
+}

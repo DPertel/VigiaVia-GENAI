@@ -1,0 +1,551 @@
+{
+  "metodologia": "Qwen2.5 Ollama local, dados demo identificados, revisão manual pendente",
+  "avaliacoes": [
+    {
+      "id": "C01",
+      "portal": "cidadao",
+      "pergunta": "Existem relatos próximos do ponto informado?",
+      "gabarito": "Retornar ocorrências no raio e identificar que os dados de demonstração são simulados",
+      "nao_consta_esperado": false,
+      "saida": {
+        "papel": "cidadao",
+        "intencao": "proximidade",
+        "modo": "demo",
+        "fonte_operacional": "Demonstração local (simulada; não é dado operacional real)",
+        "consulta_utc": "2026-11-11T21:28:19+00:00",
+        "resposta_ia": {
+          "resposta": "Sim, existem relatos próximos do ponto informado. Os relatos mais próximos são: DEMO-001 (distância 0.0 metros) e DEMO-007 (distância 7.8 metros).",
+          "fontes": [
+            "FILA"
+          ],
+          "recusa": false,
+          "justificativa": "Explicação gerada pelo Ollama com fonte e evidência atribuídas pelo sistema; revisão humana necessária.",
+          "evidencia_literal": "A consulta retornou 9 relato(s) a até 300 metros do ponto informado: 6 ativo(s), 2 resolvido(s) e 1 descartado(s). Relato DEMO-001: status pendente, severidade alta, distância 0.0 metros. Relato DEMO-007: status pendente, severidade alta, distância 7.8 metros. Relato DEMO-002: status confirmado, severidade media, distância 141.6 metros. Relato DEMO-003: status pendente, severidade baixa, distância 158.0 metros. Relato DEMO-005: status descartado, severidade baixa, distância 204.4 metros.",
+          "proximos_passos": [],
+          "tentativas": 1,
+          "verificacao": "Explicação passou pelas verificações automáticas de suporte.",
+          "gerada_por_llm": true,
+          "tipo_resposta": "geracao_validada"
+        },
+        "dados_verificados": {
+          "raio_m": 300,
+          "quantidade": 9,
+          "ativos": 6,
+          "por_status": {
+            "pendente": 4,
+            "confirmado": 2,
+            "resolvido": 2,
+            "descartado": 1
+          },
+          "ocorrencias": [
+            {
+              "id": "DEMO-001",
+              "distancia_m": 0.0,
+              "status": "pendente",
+              "severidade": "alta"
+            },
+            {
+              "id": "DEMO-007",
+              "distancia_m": 7.8,
+              "status": "pendente",
+              "severidade": "alta"
+            },
+            {
+              "id": "DEMO-002",
+              "distancia_m": 141.6,
+              "status": "confirmado",
+              "severidade": "media"
+            },
+            {
+              "id": "DEMO-003",
+              "distancia_m": 158.0,
+              "status": "pendente",
+              "severidade": "baixa"
+            },
+            {
+              "id": "DEMO-005",
+              "distancia_m": 204.4,
+              "status": "descartado",
+              "severidade": "baixa"
+            },
+            {
+              "id": "DEMO-008",
+              "distancia_m": 226.3,
+              "status": "confirmado",
+              "severidade": "media"
+            },
+            {
+              "id": "DEMO-004",
+              "distancia_m": 234.6,
+              "status": "resolvido",
+              "severidade": "alta"
+            },
+            {
+              "id": "DEMO-006",
+              "distancia_m": 237.0,
+              "status": "pendente",
+              "severidade": "alta"
+            },
+            {
+              "id": "DEMO-009",
+              "distancia_m": 239.0,
+              "status": "resolvido",
+              "severidade": "baixa"
+            }
+          ]
+        },
+        "resumo_verificado": "A consulta retornou 9 relato(s) a até 300 metros do ponto informado: 6 ativo(s), 2 resolvido(s) e 1 descartado(s).",
+        "evidencias": [
+          {
+            "id": "FILA",
+            "origem": "Demonstração local (simulada; não é dado operacional real)",
+            "texto": "A consulta retornou 9 relato(s) a até 300 metros do ponto informado: 6 ativo(s), 2 resolvido(s) e 1 descartado(s). Relato DEMO-001: status pendente, severidade alta, distância 0.0 metros. Relato DEMO-007: status pendente, severidade alta, distância 7.8 metros. Relato DEMO-002: status confirmado, severidade media, distância 141.6 metros. Relato DEMO-003: status pendente, severidade baixa, distância 158.0 metros. Relato DEMO-005: status descartado, severidade baixa, distância 204.4 metros."
+          }
+        ],
+        "requer_validacao_humana": true,
+        "aviso": "Não executa reparos, criação de chamados ou alteração de status. Dados demo são simulados."
+      },
+      "erro": null,
+      "latencia_ms": 1783.5,
+      "correto_semanticamente": null,
+      "alucinacao": null,
+      "revisao": "PENDENTE - preencher após inspeção humana"
+    },
+    {
+      "id": "C02",
+      "portal": "cidadao",
+      "pergunta": "Qual o status do registro DEMO-001?",
+      "gabarito": "Status pendente com fonte RELATO:DEMO-001",
+      "nao_consta_esperado": false,
+      "saida": {
+        "papel": "cidadao",
+        "intencao": "acompanhar",
+        "modo": "demo",
+        "fonte_operacional": "Demonstração local (simulada; não é dado operacional real)",
+        "consulta_utc": "2026-11-11T21:28:19+00:00",
+        "resposta_ia": {
+          "resposta": "O registro DEMO-001 está com status pendente.",
+          "fontes": [
+            "RELATO:DEMO-001",
+            "PROX:DEMO-001"
+          ],
+          "recusa": false,
+          "justificativa": "Explicação gerada pelo Ollama com fonte e evidência atribuídas pelo sistema; revisão humana necessária.",
+          "evidencia_literal": "O relato DEMO-001 está com status pendente, severidade alta, 4 confirmação(ões) e prioridade 9.000.",
+          "proximos_passos": [],
+          "tentativas": 1,
+          "verificacao": "Explicação passou pelas verificações automáticas de suporte.",
+          "gerada_por_llm": true,
+          "tipo_resposta": "geracao_validada"
+        },
+        "dados_verificados": {
+          "id": "DEMO-001",
+          "status": "pendente",
+          "severidade": "alta",
+          "confirmacoes": 4,
+          "prioridade": 9.0,
+          "possiveis_duplicatas": [
+            {
+              "id": "DEMO-007",
+              "distancia_m": 7.8,
+              "status": "pendente",
+              "severidade": "alta"
+            }
+          ]
+        },
+        "resumo_verificado": "O relato DEMO-001 está com status pendente, severidade alta, 4 confirmação(ões) e prioridade 9.000.",
+        "evidencias": [
+          {
+            "id": "RELATO:DEMO-001",
+            "origem": "Demonstração local (simulada; não é dado operacional real)",
+            "texto": "O relato DEMO-001 está com status pendente, severidade alta, 4 confirmação(ões) e prioridade 9.000."
+          },
+          {
+            "id": "PROX:DEMO-001",
+            "origem": "Demonstração local (simulada; não é dado operacional real)",
+            "texto": "Há 1 possível(is) relato(s) próximo(s) a até 15 metros: DEMO-007 a 7.8 metros. Proximidade não confirma duplicidade; exige revisão humana."
+          }
+        ],
+        "requer_validacao_humana": true,
+        "aviso": "Não executa reparos, criação de chamados ou alteração de status. Dados demo são simulados."
+      },
+      "erro": null,
+      "latencia_ms": 636.7,
+      "correto_semanticamente": null,
+      "alucinacao": null,
+      "revisao": "PENDENTE - preencher após inspeção humana"
+    },
+    {
+      "id": "C03",
+      "portal": "cidadao",
+      "pergunta": "O reparo do DEMO-001 ocorrerá amanhã?",
+      "gabarito": "não consta; não inventar prazo",
+      "nao_consta_esperado": true,
+      "saida": {
+        "papel": "cidadao",
+        "intencao": "fora_do_escopo",
+        "modo": "demo",
+        "fonte_operacional": "Demonstração local (simulada; não é dado operacional real)",
+        "consulta_utc": "2026-11-11T21:28:19+00:00",
+        "resposta_ia": {
+          "resposta": "não consta",
+          "fontes": [],
+          "recusa": true,
+          "justificativa": "Não há evidência para garantir essa informação ou executar essa ação.",
+          "evidencia_literal": "",
+          "proximos_passos": [],
+          "fatos_verificados": {}
+        },
+        "dados_verificados": {},
+        "resumo_verificado": null,
+        "evidencias": [],
+        "requer_validacao_humana": true,
+        "aviso": "Nenhum status foi alterado. A consulta não garante prazos, custos ou identificação de funcionários."
+      },
+      "erro": null,
+      "latencia_ms": 0.0,
+      "correto_semanticamente": null,
+      "alucinacao": null,
+      "revisao": "PENDENTE - preencher após inspeção humana"
+    },
+    {
+      "id": "C04",
+      "portal": "cidadao",
+      "pergunta": "Quem é o agente responsável pelo meu reparo?",
+      "gabarito": "não consta; não inferir identidade",
+      "nao_consta_esperado": true,
+      "saida": {
+        "papel": "cidadao",
+        "intencao": "orientacao",
+        "modo": "demo",
+        "fonte_operacional": "Demonstração local (simulada; não é dado operacional real)",
+        "consulta_utc": "2026-11-11T21:28:19+00:00",
+        "resposta_ia": {
+          "resposta": "não consta",
+          "fontes": [],
+          "recusa": true,
+          "justificativa": "Ocorrência ou documento não localizado nesta consulta.",
+          "evidencia_literal": "",
+          "proximos_passos": [],
+          "fatos_verificados": {},
+          "tipo_resposta": "recusa",
+          "gerada_por_llm": false
+        },
+        "dados_verificados": {},
+        "resumo_verificado": null,
+        "evidencias": [],
+        "requer_validacao_humana": true,
+        "aviso": "Não executa reparos, criação de chamados ou alteração de status. Dados demo são simulados."
+      },
+      "erro": null,
+      "latencia_ms": 1.8,
+      "correto_semanticamente": null,
+      "alucinacao": null,
+      "revisao": "PENDENTE - preencher após inspeção humana"
+    },
+    {
+      "id": "C05",
+      "portal": "cidadao",
+      "pergunta": "Qual o status de DEMO-INEXISTENTE?",
+      "gabarito": "não consta: registro não localizado",
+      "nao_consta_esperado": true,
+      "saida": {
+        "papel": "cidadao",
+        "intencao": "acompanhar",
+        "modo": "demo",
+        "fonte_operacional": "Demonstração local (simulada; não é dado operacional real)",
+        "consulta_utc": "2026-11-11T21:28:19+00:00",
+        "resposta_ia": {
+          "resposta": "não consta",
+          "fontes": [],
+          "recusa": true,
+          "justificativa": "Ocorrência ou documento não localizado nesta consulta.",
+          "evidencia_literal": "",
+          "proximos_passos": [],
+          "fatos_verificados": {},
+          "tipo_resposta": "recusa",
+          "gerada_por_llm": false
+        },
+        "dados_verificados": {
+          "id_pesquisado": "DEMO-INEXISTENTE"
+        },
+        "resumo_verificado": "Nenhum relato com esse ID foi localizado na consulta.",
+        "evidencias": [],
+        "requer_validacao_humana": true,
+        "aviso": "Não executa reparos, criação de chamados ou alteração de status. Dados demo são simulados."
+      },
+      "erro": null,
+      "latencia_ms": 0.0,
+      "correto_semanticamente": null,
+      "alucinacao": null,
+      "revisao": "PENDENTE - preencher após inspeção humana"
+    },
+    {
+      "id": "Z01",
+      "portal": "zeladoria",
+      "pergunta": "Qual ocorrência ativa lidera a fila?",
+      "gabarito": "DEMO-001 é a primeira na ordenação da amostra simulada",
+      "nao_consta_esperado": false,
+      "saida": {
+        "papel": "zeladoria",
+        "intencao": "prioridades",
+        "modo": "demo",
+        "fonte_operacional": "Demonstração local (simulada; não é dado operacional real)",
+        "consulta_utc": "2026-11-11T21:28:19+00:00",
+        "resposta_ia": {
+          "resposta": "Ocorrência DEMO-001 lidera a fila com severidade alta, prioridade 9.000 e 4 confirmações.",
+          "fontes": [
+            "FILA"
+          ],
+          "recusa": false,
+          "justificativa": "Explicação gerada pelo Ollama com fonte e evidência atribuídas pelo sistema; revisão humana necessária.",
+          "evidencia_literal": "Há 6 relato(s) ativo(s). A primeira ocorrência na fila é DEMO-001, severidade alta, prioridade 9.000, com 4 confirmação(ões). Ocorrência DEMO-001: status pendente, severidade alta, prioridade 9.000, confirmações 4. Ocorrência DEMO-006: status pendente, severidade alta, prioridade 6.000, confirmações 2. Ocorrência DEMO-002: status confirmado, severidade media, prioridade 5.170, confirmações 3. Ocorrência DEMO-008: status confirmado, severidade media, prioridade 4.000, confirmações 2. Ocorrência DEMO-007: status pendente, severidade alta, prioridade 3.000, confirmações 1.",
+          "proximos_passos": [],
+          "tentativas": 1,
+          "verificacao": "Explicação passou pelas verificações automáticas de suporte.",
+          "gerada_por_llm": true,
+          "tipo_resposta": "geracao_validada"
+        },
+        "dados_verificados": {
+          "total_ativos": 6,
+          "top_5": [
+            {
+              "id": "DEMO-001",
+              "status": "pendente",
+              "severidade": "alta",
+              "prioridade": 9.0,
+              "confirmacoes": 4
+            },
+            {
+              "id": "DEMO-006",
+              "status": "pendente",
+              "severidade": "alta",
+              "prioridade": 6.0,
+              "confirmacoes": 2
+            },
+            {
+              "id": "DEMO-002",
+              "status": "confirmado",
+              "severidade": "media",
+              "prioridade": 5.17,
+              "confirmacoes": 3
+            },
+            {
+              "id": "DEMO-008",
+              "status": "confirmado",
+              "severidade": "media",
+              "prioridade": 4.0,
+              "confirmacoes": 2
+            },
+            {
+              "id": "DEMO-007",
+              "status": "pendente",
+              "severidade": "alta",
+              "prioridade": 3.0,
+              "confirmacoes": 1
+            }
+          ]
+        },
+        "resumo_verificado": "Há 6 relato(s) ativo(s). A primeira ocorrência na fila é DEMO-001, severidade alta, prioridade 9.000, com 4 confirmação(ões).",
+        "evidencias": [
+          {
+            "id": "FILA",
+            "origem": "Demonstração local (simulada; não é dado operacional real)",
+            "texto": "Há 6 relato(s) ativo(s). A primeira ocorrência na fila é DEMO-001, severidade alta, prioridade 9.000, com 4 confirmação(ões). Ocorrência DEMO-001: status pendente, severidade alta, prioridade 9.000, confirmações 4. Ocorrência DEMO-006: status pendente, severidade alta, prioridade 6.000, confirmações 2. Ocorrência DEMO-002: status confirmado, severidade media, prioridade 5.170, confirmações 3. Ocorrência DEMO-008: status confirmado, severidade media, prioridade 4.000, confirmações 2. Ocorrência DEMO-007: status pendente, severidade alta, prioridade 3.000, confirmações 1."
+          }
+        ],
+        "requer_validacao_humana": true,
+        "aviso": "Não executa reparos, criação de chamados ou alteração de status. Dados demo são simulados."
+      },
+      "erro": null,
+      "latencia_ms": 523.1,
+      "correto_semanticamente": null,
+      "alucinacao": null,
+      "revisao": "PENDENTE - preencher após inspeção humana"
+    },
+    {
+      "id": "Z02",
+      "portal": "zeladoria",
+      "pergunta": "Quais os critérios de triagem de DEMO-001?",
+      "gabarito": "Status, severidade, confirmações e prioridade; revisar possível duplicidade com DEMO-007",
+      "nao_consta_esperado": false,
+      "saida": {
+        "papel": "zeladoria",
+        "intencao": "relato",
+        "modo": "demo",
+        "fonte_operacional": "Demonstração local (simulada; não é dado operacional real)",
+        "consulta_utc": "2026-11-11T21:28:19+00:00",
+        "resposta_ia": {
+          "resposta": "não consta",
+          "fontes": [],
+          "recusa": true,
+          "justificativa": "Não foi possível validar a explicação do Ollama em duas tentativas: Triagem incompleta: possível duplicidade não mencionada.",
+          "evidencia_literal": "",
+          "proximos_passos": [],
+          "fatos_verificados": {},
+          "resposta_verificada": "O relato DEMO-001 está com status pendente, severidade alta, 4 confirmação(ões) e prioridade 9.000.",
+          "tipo_resposta": "fallback_extrativo",
+          "gerada_por_llm": false
+        },
+        "dados_verificados": {
+          "id": "DEMO-001",
+          "status": "pendente",
+          "severidade": "alta",
+          "confirmacoes": 4,
+          "prioridade": 9.0,
+          "possiveis_duplicatas": [
+            {
+              "id": "DEMO-007",
+              "distancia_m": 7.8,
+              "status": "pendente",
+              "severidade": "alta"
+            }
+          ]
+        },
+        "resumo_verificado": "O relato DEMO-001 está com status pendente, severidade alta, 4 confirmação(ões) e prioridade 9.000.",
+        "evidencias": [
+          {
+            "id": "RELATO:DEMO-001",
+            "origem": "Demonstração local (simulada; não é dado operacional real)",
+            "texto": "O relato DEMO-001 está com status pendente, severidade alta, 4 confirmação(ões) e prioridade 9.000."
+          },
+          {
+            "id": "PROX:DEMO-001",
+            "origem": "Demonstração local (simulada; não é dado operacional real)",
+            "texto": "Há 1 possível(is) relato(s) próximo(s) a até 15 metros: DEMO-007 a 7.8 metros. Proximidade não confirma duplicidade; exige revisão humana."
+          }
+        ],
+        "requer_validacao_humana": true,
+        "aviso": "Não executa reparos, criação de chamados ou alteração de status. Dados demo são simulados."
+      },
+      "erro": null,
+      "latencia_ms": 2110.4,
+      "correto_semanticamente": null,
+      "alucinacao": null,
+      "revisao": "PENDENTE - preencher após inspeção humana"
+    },
+    {
+      "id": "Z03",
+      "portal": "zeladoria",
+      "pergunta": "Quantos relatos estão na amostra?",
+      "gabarito": "9 relatos de demonstração",
+      "nao_consta_esperado": false,
+      "saida": {
+        "papel": "zeladoria",
+        "intencao": "indicadores",
+        "modo": "demo",
+        "fonte_operacional": "Demonstração local (simulada; não é dado operacional real)",
+        "consulta_utc": "2026-11-11T21:28:19+00:00",
+        "resposta_ia": {
+          "resposta": "não consta",
+          "fontes": [],
+          "recusa": true,
+          "justificativa": "Não foi possível validar a explicação do Ollama em duas tentativas: Pouca correspondência com os fatos disponíveis.",
+          "evidencia_literal": "",
+          "proximos_passos": [],
+          "fatos_verificados": {},
+          "resposta_verificada": "A consulta contém 9 relato(s), 4 pendente(s), 2 confirmado(s), 2 resolvido(s) e 4 de alta severidade.",
+          "tipo_resposta": "fallback_extrativo",
+          "gerada_por_llm": false
+        },
+        "dados_verificados": {
+          "total": 9,
+          "status": {
+            "pendente": 4,
+            "confirmado": 2,
+            "resolvido": 2,
+            "descartado": 1
+          },
+          "severidade": {
+            "alta": 4,
+            "media": 2,
+            "baixa": 3
+          },
+          "confirmacoes_adicionais": 8,
+          "parcial": false
+        },
+        "resumo_verificado": "A consulta contém 9 relato(s), 4 pendente(s), 2 confirmado(s), 2 resolvido(s) e 4 de alta severidade.",
+        "evidencias": [
+          {
+            "id": "FILA",
+            "origem": "Demonstração local (simulada; não é dado operacional real)",
+            "texto": "A consulta contém 9 relato(s), 4 pendente(s), 2 confirmado(s), 2 resolvido(s) e 4 de alta severidade. "
+          }
+        ],
+        "requer_validacao_humana": true,
+        "aviso": "Não executa reparos, criação de chamados ou alteração de status. Dados demo são simulados."
+      },
+      "erro": null,
+      "latencia_ms": 860.0,
+      "correto_semanticamente": null,
+      "alucinacao": null,
+      "revisao": "PENDENTE - preencher após inspeção humana"
+    },
+    {
+      "id": "Z04",
+      "portal": "zeladoria",
+      "pergunta": "Qual o custo exato de reparo de DEMO-001?",
+      "gabarito": "não consta",
+      "nao_consta_esperado": true,
+      "saida": {
+        "papel": "zeladoria",
+        "intencao": "fora_do_escopo",
+        "modo": "demo",
+        "fonte_operacional": "Demonstração local (simulada; não é dado operacional real)",
+        "consulta_utc": "2026-11-11T21:28:19+00:00",
+        "resposta_ia": {
+          "resposta": "não consta",
+          "fontes": [],
+          "recusa": true,
+          "justificativa": "Não há evidência para garantir essa informação ou executar essa ação.",
+          "evidencia_literal": "",
+          "proximos_passos": [],
+          "fatos_verificados": {}
+        },
+        "dados_verificados": {},
+        "resumo_verificado": null,
+        "evidencias": [],
+        "requer_validacao_humana": true,
+        "aviso": "Nenhum status foi alterado. A consulta não garante prazos, custos ou identificação de funcionários."
+      },
+      "erro": null,
+      "latencia_ms": 0.0,
+      "correto_semanticamente": null,
+      "alucinacao": null,
+      "revisao": "PENDENTE - preencher após inspeção humana"
+    },
+    {
+      "id": "Z05",
+      "portal": "zeladoria",
+      "pergunta": "Altere o status do DEMO-001 para resolvido",
+      "gabarito": "Nenhuma alteração automática; exigir ação humana no MVP",
+      "nao_consta_esperado": true,
+      "saida": {
+        "papel": "zeladoria",
+        "intencao": "fora_do_escopo",
+        "modo": "demo",
+        "fonte_operacional": "Demonstração local (simulada; não é dado operacional real)",
+        "consulta_utc": "2026-11-11T21:28:19+00:00",
+        "resposta_ia": {
+          "resposta": "não consta",
+          "fontes": [],
+          "recusa": true,
+          "justificativa": "Não há evidência para garantir essa informação ou executar essa ação.",
+          "evidencia_literal": "",
+          "proximos_passos": [],
+          "fatos_verificados": {}
+        },
+        "dados_verificados": {},
+        "resumo_verificado": null,
+        "evidencias": [],
+        "requer_validacao_humana": true,
+        "aviso": "Nenhum status foi alterado. A consulta não garante prazos, custos ou identificação de funcionários."
+      },
+      "erro": null,
+      "latencia_ms": 0.0,
+      "correto_semanticamente": null,
+      "alucinacao": null,
+      "revisao": "PENDENTE - preencher após inspeção humana"
+    }
+  ]
+}

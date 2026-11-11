@@ -1,0 +1,51 @@
+[
+  {
+    "limiar": 0.12,
+    "recall_at_1": 0.9231,
+    "recall_at_3": 1.0,
+    "recusas_por_limiar_corretas": 1,
+    "perguntas_sem_resposta": 5
+  },
+  {
+    "limiar": 0.15,
+    "recall_at_1": 0.9231,
+    "recall_at_3": 0.9231,
+    "recusas_por_limiar_corretas": 2,
+    "perguntas_sem_resposta": 5
+  },
+  {
+    "limiar": 0.16,
+    "recall_at_1": 0.9231,
+    "recall_at_3": 0.9231,
+    "recusas_por_limiar_corretas": 2,
+    "perguntas_sem_resposta": 5
+  },
+  {
+    "limiar": 0.17,
+    "recall_at_1": 0.9231,
+    "recall_at_3": 0.9231,
+    "recusas_por_limiar_corretas": 2,
+    "perguntas_sem_resposta": 5
+  },
+  {
+    "limiar": 0.18,
+    "recall_at_1": 0.6923,
+    "recall_at_3": 0.6923,
+    "recusas_por_limiar_corretas": 2,
+    "perguntas_sem_resposta": 5
+  },
+  {
+    "limiar": 0.19,
+    "recall_at_1": 0.5385,
+    "recall_at_3": 0.5385,
+    "recusas_por_limiar_corretas": 2,
+    "perguntas_sem_resposta": 5
+  },
+  {
+    "limiar": 0.2,
+    "recall_at_1": 0.4615,
+    "recall_at_3": 0.4615,
+    "recusas_por_limiar_corretas": 2,
+    "perguntas_sem_resposta": 5
+  }
+]

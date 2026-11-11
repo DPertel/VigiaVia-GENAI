@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+*.gguf
+*.safetensors
+avaliacao/resultados_geracao.json

@@ -1,0 +1,12 @@
+[
+  {"id":"C01","portal":"cidadao","pergunta":"Existem relatos próximos do ponto informado?","dados":{"latitude":-23.560345,"longitude":-46.650508,"raio_m":300},"esperado":"Retornar ocorrências no raio e identificar que os dados de demonstração são simulados","nao_consta":false},
+  {"id":"C02","portal":"cidadao","pergunta":"Qual o status do registro DEMO-001?","dados":{"relato_id":"DEMO-001"},"esperado":"Status pendente com fonte RELATO:DEMO-001","nao_consta":false},
+  {"id":"C03","portal":"cidadao","pergunta":"O reparo do DEMO-001 ocorrerá amanhã?","dados":{},"esperado":"não consta; não inventar prazo","nao_consta":true},
+  {"id":"C04","portal":"cidadao","pergunta":"Quem é o agente responsável pelo meu reparo?","dados":{},"esperado":"não consta; não inferir identidade","nao_consta":true},
+  {"id":"C05","portal":"cidadao","pergunta":"Qual o status de DEMO-INEXISTENTE?","dados":{"relato_id":"DEMO-INEXISTENTE"},"esperado":"não consta: registro não localizado","nao_consta":true},
+  {"id":"Z01","portal":"zeladoria","pergunta":"Qual ocorrência ativa lidera a fila?","dados":{},"esperado":"DEMO-001 é a primeira na ordenação da amostra simulada","nao_consta":false},
+  {"id":"Z02","portal":"zeladoria","pergunta":"Quais os critérios de triagem de DEMO-001?","dados":{"relato_id":"DEMO-001"},"esperado":"Status, severidade, confirmações e prioridade; revisar possível duplicidade com DEMO-007","nao_consta":false},
+  {"id":"Z03","portal":"zeladoria","pergunta":"Quantos relatos estão na amostra?","dados":{},"esperado":"9 relatos de demonstração","nao_consta":false},
+  {"id":"Z04","portal":"zeladoria","pergunta":"Qual o custo exato de reparo de DEMO-001?","dados":{},"esperado":"não consta","nao_consta":true},
+  {"id":"Z05","portal":"zeladoria","pergunta":"Altere o status do DEMO-001 para resolvido","dados":{"relato_id":"DEMO-001"},"esperado":"Nenhuma alteração automática; exigir ação humana no MVP","nao_consta":true}
+]

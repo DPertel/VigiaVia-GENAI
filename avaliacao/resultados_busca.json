@@ -1,0 +1,394 @@
+{
+  "limiar": 0.16,
+  "n_positivos": 13,
+  "n_nao_consta": 5,
+  "recall_at_1": 0.9230769230769231,
+  "recall_at_3": 0.9230769230769231,
+  "taxa_abstencao_nao_consta_busca": 0.4,
+  "detalhes": [
+    {
+      "caso": "T01",
+      "esperadas": [
+        "V01"
+      ],
+      "top3": [
+        "V01",
+        "V02",
+        "V03"
+      ],
+      "scores": [
+        0.1732,
+        0.0657,
+        0.0604
+      ],
+      "aceitas": [
+        "V01"
+      ],
+      "recall1": true,
+      "recall3": true,
+      "recusa_por_limiar": false
+    },
+    {
+      "caso": "T02",
+      "esperadas": [
+        "V02"
+      ],
+      "top3": [
+        "V02",
+        "V04",
+        "V12"
+      ],
+      "scores": [
+        0.1727,
+        0.0711,
+        0.0709
+      ],
+      "aceitas": [
+        "V02"
+      ],
+      "recall1": true,
+      "recall3": true,
+      "recusa_por_limiar": false
+    },
+    {
+      "caso": "T03",
+      "esperadas": [
+        "V03"
+      ],
+      "top3": [
+        "V05",
+        "V03",
+        "V07"
+      ],
+      "scores": [
+        0.2004,
+        0.1206,
+        0.1072
+      ],
+      "aceitas": [
+        "V05"
+      ],
+      "recall1": false,
+      "recall3": false,
+      "recusa_por_limiar": false
+    },
+    {
+      "caso": "T04",
+      "esperadas": [
+        "V04"
+      ],
+      "top3": [
+        "V04",
+        "V05",
+        "V06"
+      ],
+      "scores": [
+        0.1742,
+        0.1218,
+        0.111
+      ],
+      "aceitas": [
+        "V04"
+      ],
+      "recall1": true,
+      "recall3": true,
+      "recusa_por_limiar": false
+    },
+    {
+      "caso": "T05",
+      "esperadas": [
+        "V05"
+      ],
+      "top3": [
+        "V05",
+        "V06",
+        "V09"
+      ],
+      "scores": [
+        0.2055,
+        0.1709,
+        0.1298
+      ],
+      "aceitas": [
+        "V05",
+        "V06"
+      ],
+      "recall1": true,
+      "recall3": true,
+      "recusa_por_limiar": false
+    },
+    {
+      "caso": "T06",
+      "esperadas": [
+        "V06"
+      ],
+      "top3": [
+        "V06",
+        "V04",
+        "V09"
+      ],
+      "scores": [
+        0.3511,
+        0.0791,
+        0.048
+      ],
+      "aceitas": [
+        "V06"
+      ],
+      "recall1": true,
+      "recall3": true,
+      "recusa_por_limiar": false
+    },
+    {
+      "caso": "T07",
+      "esperadas": [
+        "V07"
+      ],
+      "top3": [
+        "V07",
+        "V02",
+        "V17"
+      ],
+      "scores": [
+        0.1973,
+        0.1554,
+        0.1335
+      ],
+      "aceitas": [
+        "V07"
+      ],
+      "recall1": true,
+      "recall3": true,
+      "recusa_por_limiar": false
+    },
+    {
+      "caso": "T08",
+      "esperadas": [
+        "V08"
+      ],
+      "top3": [
+        "V08",
+        "V12",
+        "V10"
+      ],
+      "scores": [
+        0.1804,
+        0.0808,
+        0.0735
+      ],
+      "aceitas": [
+        "V08"
+      ],
+      "recall1": true,
+      "recall3": true,
+      "recusa_por_limiar": false
+    },
+    {
+      "caso": "T09",
+      "esperadas": [
+        "V09"
+      ],
+      "top3": [
+        "V09",
+        "V04",
+        "V05"
+      ],
+      "scores": [
+        0.1855,
+        0.0832,
+        0.0223
+      ],
+      "aceitas": [
+        "V09"
+      ],
+      "recall1": true,
+      "recall3": true,
+      "recusa_por_limiar": false
+    },
+    {
+      "caso": "T10",
+      "esperadas": [
+        "V10"
+      ],
+      "top3": [
+        "V10",
+        "V04",
+        "V06"
+      ],
+      "scores": [
+        0.3509,
+        0.0681,
+        0.0436
+      ],
+      "aceitas": [
+        "V10"
+      ],
+      "recall1": true,
+      "recall3": true,
+      "recusa_por_limiar": false
+    },
+    {
+      "caso": "T11",
+      "esperadas": [
+        "V11"
+      ],
+      "top3": [
+        "V11",
+        "V18",
+        "V15"
+      ],
+      "scores": [
+        0.3449,
+        0.0467,
+        0.0382
+      ],
+      "aceitas": [
+        "V11"
+      ],
+      "recall1": true,
+      "recall3": true,
+      "recusa_por_limiar": false
+    },
+    {
+      "caso": "T12",
+      "esperadas": [
+        "V13"
+      ],
+      "top3": [
+        "V13",
+        "V17",
+        "V05"
+      ],
+      "scores": [
+        0.2092,
+        0.1169,
+        0.1133
+      ],
+      "aceitas": [
+        "V13"
+      ],
+      "recall1": true,
+      "recall3": true,
+      "recusa_por_limiar": false
+    },
+    {
+      "caso": "T13",
+      "esperadas": [
+        "V15"
+      ],
+      "top3": [
+        "V15",
+        "V02",
+        "V05"
+      ],
+      "scores": [
+        0.2056,
+        0.1133,
+        0.1009
+      ],
+      "aceitas": [
+        "V15"
+      ],
+      "recall1": true,
+      "recall3": true,
+      "recusa_por_limiar": false
+    },
+    {
+      "caso": "T14",
+      "esperadas": [],
+      "top3": [
+        "V18",
+        "V03",
+        "V06"
+      ],
+      "scores": [
+        0.2171,
+        0.0689,
+        0.0652
+      ],
+      "aceitas": [
+        "V18"
+      ],
+      "recall1": null,
+      "recall3": null,
+      "recusa_por_limiar": false
+    },
+    {
+      "caso": "T15",
+      "esperadas": [],
+      "top3": [
+        "V18",
+        "V11",
+        "V05"
+      ],
+      "scores": [
+        0.3,
+        0.0548,
+        0.0403
+      ],
+      "aceitas": [
+        "V18"
+      ],
+      "recall1": null,
+      "recall3": null,
+      "recusa_por_limiar": false
+    },
+    {
+      "caso": "T16",
+      "esperadas": [],
+      "top3": [
+        "V03",
+        "V07",
+        "V09"
+      ],
+      "scores": [
+        0.1006,
+        0.0894,
+        0.0817
+      ],
+      "aceitas": [],
+      "recall1": null,
+      "recall3": null,
+      "recusa_por_limiar": true
+    },
+    {
+      "caso": "T17",
+      "esperadas": [],
+      "top3": [
+        "V12",
+        "V03",
+        "V01"
+      ],
+      "scores": [
+        0.1479,
+        0.1218,
+        0.1065
+      ],
+      "aceitas": [],
+      "recall1": null,
+      "recall3": null,
+      "recusa_por_limiar": true
+    },
+    {
+      "caso": "T18",
+      "esperadas": [],
+      "top3": [
+        "V18",
+        "V01",
+        "V05"
+      ],
+      "scores": [
+        0.2467,
+        0.1901,
+        0.1291
+      ],
+      "aceitas": [
+        "V18",
+        "V01"
+      ],
+      "recall1": null,
+      "recall3": null,
+      "recusa_por_limiar": false
+    }
+  ]
+}
