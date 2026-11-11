@@ -19,7 +19,7 @@
         "justificativa": "Não consta na base de conhecimento disponível."
       },
       "erro_execucao": null,
-      "latencia_ms": 1087.8,
+      "latencia_ms": 1148.9,
       "recusa_correta": false,
       "fonte_esperada_citada": false
     },
@@ -40,7 +40,7 @@
         "justificativa": "Não consta na base de conhecimento disponível."
       },
       "erro_execucao": null,
-      "latencia_ms": 444.7,
+      "latencia_ms": 491.1,
       "recusa_correta": false,
       "fonte_esperada_citada": false
     },
@@ -61,7 +61,7 @@
         "justificativa": "Resposta sujeita à validação humana."
       },
       "erro_execucao": null,
-      "latencia_ms": 1823.5,
+      "latencia_ms": 1977.0,
       "recusa_correta": true,
       "fonte_esperada_citada": false
     },
@@ -82,7 +82,7 @@
         "justificativa": "Não consta na base de conhecimento disponível."
       },
       "erro_execucao": null,
-      "latencia_ms": 465.9,
+      "latencia_ms": 493.8,
       "recusa_correta": false,
       "fonte_esperada_citada": false
     },
@@ -103,7 +103,7 @@
         "justificativa": "Não consta na base de conhecimento disponível."
       },
       "erro_execucao": null,
-      "latencia_ms": 462.6,
+      "latencia_ms": 472.7,
       "recusa_correta": false,
       "fonte_esperada_citada": false
     },
@@ -124,7 +124,7 @@
         "justificativa": "Não consta na base de conhecimento disponível."
       },
       "erro_execucao": null,
-      "latencia_ms": 479.5,
+      "latencia_ms": 485.0,
       "recusa_correta": false,
       "fonte_esperada_citada": false
     },
@@ -145,7 +145,7 @@
         "justificativa": "Não consta na base de conhecimento disponível."
       },
       "erro_execucao": null,
-      "latencia_ms": 509.8,
+      "latencia_ms": 513.6,
       "recusa_correta": false,
       "fonte_esperada_citada": false
     },
@@ -166,7 +166,7 @@
         "justificativa": "Não consta na base de conhecimento disponível."
       },
       "erro_execucao": null,
-      "latencia_ms": 455.5,
+      "latencia_ms": 457.4,
       "recusa_correta": false,
       "fonte_esperada_citada": false
     },
@@ -187,7 +187,7 @@
         "justificativa": "Não consta na base de conhecimento disponível."
       },
       "erro_execucao": null,
-      "latencia_ms": 430.2,
+      "latencia_ms": 439.1,
       "recusa_correta": false,
       "fonte_esperada_citada": false
     },
@@ -208,7 +208,7 @@
         "justificativa": "Não consta na base de conhecimento disponível."
       },
       "erro_execucao": null,
-      "latencia_ms": 519.9,
+      "latencia_ms": 537.5,
       "recusa_correta": false,
       "fonte_esperada_citada": false
     },
@@ -229,7 +229,7 @@
         "justificativa": "Não consta na base de conhecimento disponível."
       },
       "erro_execucao": null,
-      "latencia_ms": 520.3,
+      "latencia_ms": 567.3,
       "recusa_correta": false,
       "fonte_esperada_citada": false
     },
@@ -250,7 +250,7 @@
         "justificativa": "Não consta na base de conhecimento disponível."
       },
       "erro_execucao": null,
-      "latencia_ms": 462.8,
+      "latencia_ms": 490.0,
       "recusa_correta": false,
       "fonte_esperada_citada": false
     },
@@ -271,7 +271,7 @@
         "justificativa": "Não consta na base de conhecimento disponível."
       },
       "erro_execucao": null,
-      "latencia_ms": 542.9,
+      "latencia_ms": 574.8,
       "recusa_correta": false,
       "fonte_esperada_citada": false
     },
@@ -290,7 +290,7 @@
         "justificativa": "Não consta na base de conhecimento disponível."
       },
       "erro_execucao": null,
-      "latencia_ms": 469.2,
+      "latencia_ms": 511.2,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -309,7 +309,7 @@
         "justificativa": "Não consta na base de conhecimento disponível."
       },
       "erro_execucao": null,
-      "latencia_ms": 462.4,
+      "latencia_ms": 490.7,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -328,7 +328,7 @@
         "justificativa": "Não consta na base de conhecimento disponível."
       },
       "erro_execucao": null,
-      "latencia_ms": 529.3,
+      "latencia_ms": 535.4,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -347,7 +347,7 @@
         "justificativa": "Não consta na base de conhecimento disponível."
       },
       "erro_execucao": null,
-      "latencia_ms": 523.5,
+      "latencia_ms": 524.6,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -366,7 +366,7 @@
         "justificativa": "Não consta na base de conhecimento disponível."
       },
       "erro_execucao": null,
-      "latencia_ms": 556.9,
+      "latencia_ms": 550.5,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -389,7 +389,7 @@
         "justificativa": "Resposta sujeita à validação humana."
       },
       "erro_execucao": null,
-      "latencia_ms": 1145.0,
+      "latencia_ms": 1159.6,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -412,7 +412,7 @@
         "justificativa": "Resposta sujeita à validação humana."
       },
       "erro_execucao": null,
-      "latencia_ms": 1218.4,
+      "latencia_ms": 1230.0,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -435,7 +435,7 @@
         "justificativa": "Resposta sujeita à validação humana."
       },
       "erro_execucao": null,
-      "latencia_ms": 1442.8,
+      "latencia_ms": 1459.9,
       "recusa_correta": true,
       "fonte_esperada_citada": false
     },
@@ -458,7 +458,7 @@
         "justificativa": "Resposta sujeita à validação humana."
       },
       "erro_execucao": null,
-      "latencia_ms": 1000.7,
+      "latencia_ms": 1011.7,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -482,7 +482,7 @@
         "justificativa": "Resposta sujeita à validação humana."
       },
       "erro_execucao": null,
-      "latencia_ms": 1311.3,
+      "latencia_ms": 1332.3,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -505,7 +505,7 @@
         "justificativa": "Resposta sujeita à validação humana."
       },
       "erro_execucao": null,
-      "latencia_ms": 872.9,
+      "latencia_ms": 894.3,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -528,7 +528,7 @@
         "justificativa": "Resposta sujeita à validação humana."
       },
       "erro_execucao": null,
-      "latencia_ms": 1195.6,
+      "latencia_ms": 1234.2,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -551,7 +551,7 @@
         "justificativa": "Resposta sujeita à validação humana."
       },
       "erro_execucao": null,
-      "latencia_ms": 1095.2,
+      "latencia_ms": 1095.8,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -574,7 +574,7 @@
         "justificativa": "Resposta sujeita à validação humana."
       },
       "erro_execucao": null,
-      "latencia_ms": 1440.0,
+      "latencia_ms": 1468.7,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -597,7 +597,7 @@
         "justificativa": "Resposta sujeita à validação humana."
       },
       "erro_execucao": null,
-      "latencia_ms": 924.3,
+      "latencia_ms": 966.9,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -620,7 +620,7 @@
         "justificativa": "Resposta sujeita à validação humana."
       },
       "erro_execucao": null,
-      "latencia_ms": 1162.3,
+      "latencia_ms": 1210.3,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -641,7 +641,7 @@
         "justificativa": "Resposta sem citações válidas, bloqueada após revisão."
       },
       "erro_execucao": null,
-      "latencia_ms": 2593.1,
+      "latencia_ms": 2612.6,
       "recusa_correta": false,
       "fonte_esperada_citada": false
     },
@@ -662,7 +662,7 @@
         "justificativa": "Resposta sem citações válidas, bloqueada após revisão."
       },
       "erro_execucao": null,
-      "latencia_ms": 2798.6,
+      "latencia_ms": 2759.7,
       "recusa_correta": false,
       "fonte_esperada_citada": false
     },
@@ -681,7 +681,7 @@
         "justificativa": "Modelo recusou mesmo após revisão das evidências."
       },
       "erro_execucao": null,
-      "latencia_ms": 1338.1,
+      "latencia_ms": 1374.0,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -700,7 +700,7 @@
         "justificativa": "Modelo recusou mesmo após revisão das evidências."
       },
       "erro_execucao": null,
-      "latencia_ms": 1146.5,
+      "latencia_ms": 1163.5,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -719,7 +719,7 @@
         "justificativa": "Busca abaixo do limiar: não há evidência suficiente."
       },
       "erro_execucao": null,
-      "latencia_ms": 1.5,
+      "latencia_ms": 2.6,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -738,7 +738,7 @@
         "justificativa": "Busca abaixo do limiar: não há evidência suficiente."
       },
       "erro_execucao": null,
-      "latencia_ms": 1.8,
+      "latencia_ms": 1.4,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -757,7 +757,7 @@
         "justificativa": "Resposta sem citações válidas, bloqueada após revisão."
       },
       "erro_execucao": null,
-      "latencia_ms": 1272.6,
+      "latencia_ms": 1359.8,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -778,7 +778,7 @@
         "justificativa": "Recusa após geração não validada: Resposta incompleta em relação à pergunta e ao documento."
       },
       "erro_execucao": null,
-      "latencia_ms": 2373.6,
+      "latencia_ms": 2464.5,
       "recusa_correta": false,
       "fonte_esperada_citada": false
     },
@@ -804,7 +804,7 @@
         "tentativas": 1
       },
       "erro_execucao": null,
-      "latencia_ms": 998.3,
+      "latencia_ms": 990.5,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -830,7 +830,7 @@
         "tentativas": 1
       },
       "erro_execucao": null,
-      "latencia_ms": 1008.9,
+      "latencia_ms": 1020.5,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -856,7 +856,7 @@
         "tentativas": 3
       },
       "erro_execucao": null,
-      "latencia_ms": 3141.8,
+      "latencia_ms": 3213.5,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -877,7 +877,7 @@
         "justificativa": "Recusa após geração não validada: Resposta incompleta em relação à pergunta e ao documento."
       },
       "erro_execucao": null,
-      "latencia_ms": 1934.2,
+      "latencia_ms": 2075.1,
       "recusa_correta": false,
       "fonte_esperada_citada": false
     },
@@ -903,7 +903,7 @@
         "tentativas": 1
       },
       "erro_execucao": null,
-      "latencia_ms": 628.9,
+      "latencia_ms": 700.5,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -929,7 +929,7 @@
         "tentativas": 2
       },
       "erro_execucao": null,
-      "latencia_ms": 2126.8,
+      "latencia_ms": 2152.0,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -956,7 +956,7 @@
         "tentativas": 2
       },
       "erro_execucao": null,
-      "latencia_ms": 2024.3,
+      "latencia_ms": 2028.3,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -982,7 +982,7 @@
         "tentativas": 1
       },
       "erro_execucao": null,
-      "latencia_ms": 650.2,
+      "latencia_ms": 656.0,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -1003,7 +1003,7 @@
         "justificativa": "Recusa após geração não validada: A resposta começa afirmando login obrigatório, mas V10 o nega no MVP."
       },
       "erro_execucao": null,
-      "latencia_ms": 1310.5,
+      "latencia_ms": 1335.0,
       "recusa_correta": false,
       "fonte_esperada_citada": false
     },
@@ -1024,7 +1024,7 @@
         "justificativa": "Recusa após geração não validada: Resposta incompleta em relação à pergunta e ao documento."
       },
       "erro_execucao": null,
-      "latencia_ms": 888.6,
+      "latencia_ms": 910.5,
       "recusa_correta": false,
       "fonte_esperada_citada": false
     },
@@ -1050,7 +1050,7 @@
         "tentativas": 1
       },
       "erro_execucao": null,
-      "latencia_ms": 849.6,
+      "latencia_ms": 873.2,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -1071,7 +1071,7 @@
         "justificativa": "Recusa após geração não validada: Resposta incompleta em relação à pergunta e ao documento."
       },
       "erro_execucao": null,
-      "latencia_ms": 1876.1,
+      "latencia_ms": 1971.1,
       "recusa_correta": false,
       "fonte_esperada_citada": false
     },
@@ -1090,7 +1090,7 @@
         "justificativa": "Recusa após geração não validada: Recusa ou resposta vazia."
       },
       "erro_execucao": null,
-      "latencia_ms": 1497.7,
+      "latencia_ms": 1558.4,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -1109,7 +1109,7 @@
         "justificativa": "Recusa após geração não validada: Recusa ou resposta vazia."
       },
       "erro_execucao": null,
-      "latencia_ms": 1025.8,
+      "latencia_ms": 1071.1,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -1128,7 +1128,7 @@
         "justificativa": "Busca abaixo do limiar e sem evidência temática confiável."
       },
       "erro_execucao": null,
-      "latencia_ms": 2.8,
+      "latencia_ms": 2.9,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -1147,7 +1147,7 @@
         "justificativa": "Busca abaixo do limiar e sem evidência temática confiável."
       },
       "erro_execucao": null,
-      "latencia_ms": 2.5,
+      "latencia_ms": 3.9,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     },
@@ -1166,7 +1166,7 @@
         "justificativa": "Recusa após geração não validada: Recusa ou resposta vazia."
       },
       "erro_execucao": null,
-      "latencia_ms": 1028.7,
+      "latencia_ms": 1048.8,
       "recusa_correta": true,
       "fonte_esperada_citada": true
     }

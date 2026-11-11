@@ -12,7 +12,7 @@
         "intencao": "proximidade",
         "modo": "demo",
         "fonte_operacional": "Demonstração local (simulada; não é dado operacional real)",
-        "consulta_utc": "2026-11-11T21:51:19+00:00",
+        "consulta_utc": "2026-11-11T22:15:19+00:00",
         "resposta_ia": {
           "resposta": "Sim, existem relatos próximos do ponto informado. Os relatos mais próximos são: DEMO-001 (distância 0.0 metros) e DEMO-007 (distância 7.8 metros).",
           "fontes": [
@@ -106,7 +106,7 @@
         "aviso": "Não executa reparos, criação de chamados ou alteração de status. Dados demo são simulados."
       },
       "erro": null,
-      "latencia_ms": 1809.4,
+      "latencia_ms": 1861.3,
       "correto_semanticamente": null,
       "alucinacao": null,
       "revisao": "PENDENTE - preencher após inspeção humana"
@@ -122,7 +122,7 @@
         "intencao": "acompanhar",
         "modo": "demo",
         "fonte_operacional": "Demonstração local (simulada; não é dado operacional real)",
-        "consulta_utc": "2026-11-11T21:51:19+00:00",
+        "consulta_utc": "2026-11-11T22:15:19+00:00",
         "resposta_ia": {
           "resposta": "O registro DEMO-001 está com status pendente.",
           "fontes": [
@@ -170,7 +170,7 @@
         "aviso": "Não executa reparos, criação de chamados ou alteração de status. Dados demo são simulados."
       },
       "erro": null,
-      "latencia_ms": 624.8,
+      "latencia_ms": 640.4,
       "correto_semanticamente": null,
       "alucinacao": null,
       "revisao": "PENDENTE - preencher após inspeção humana"
@@ -186,7 +186,7 @@
         "intencao": "fora_do_escopo",
         "modo": "demo",
         "fonte_operacional": "Demonstração local (simulada; não é dado operacional real)",
-        "consulta_utc": "2026-11-11T21:51:19+00:00",
+        "consulta_utc": "2026-11-11T22:15:19+00:00",
         "resposta_ia": {
           "resposta": "não consta",
           "fontes": [],
@@ -219,7 +219,7 @@
         "intencao": "orientacao",
         "modo": "demo",
         "fonte_operacional": "Demonstração local (simulada; não é dado operacional real)",
-        "consulta_utc": "2026-11-11T21:51:19+00:00",
+        "consulta_utc": "2026-11-11T22:15:19+00:00",
         "resposta_ia": {
           "resposta": "não consta",
           "fontes": [],
@@ -238,7 +238,7 @@
         "aviso": "Não executa reparos, criação de chamados ou alteração de status. Dados demo são simulados."
       },
       "erro": null,
-      "latencia_ms": 1.7,
+      "latencia_ms": 2.3,
       "correto_semanticamente": null,
       "alucinacao": null,
       "revisao": "PENDENTE - preencher após inspeção humana"
@@ -254,7 +254,7 @@
         "intencao": "acompanhar",
         "modo": "demo",
         "fonte_operacional": "Demonstração local (simulada; não é dado operacional real)",
-        "consulta_utc": "2026-11-11T21:51:19+00:00",
+        "consulta_utc": "2026-11-11T22:15:19+00:00",
         "resposta_ia": {
           "resposta": "não consta",
           "fontes": [],
@@ -291,7 +291,7 @@
         "intencao": "prioridades",
         "modo": "demo",
         "fonte_operacional": "Demonstração local (simulada; não é dado operacional real)",
-        "consulta_utc": "2026-11-11T21:51:19+00:00",
+        "consulta_utc": "2026-11-11T22:15:19+00:00",
         "resposta_ia": {
           "resposta": "Ocorrência DEMO-001 lidera a fila com severidade alta, prioridade 9.000 e 4 confirmações.",
           "fontes": [
@@ -358,7 +358,7 @@
         "aviso": "Não executa reparos, criação de chamados ou alteração de status. Dados demo são simulados."
       },
       "erro": null,
-      "latencia_ms": 519.9,
+      "latencia_ms": 545.7,
       "correto_semanticamente": null,
       "alucinacao": null,
       "revisao": "PENDENTE - preencher após inspeção humana"
@@ -374,7 +374,7 @@
         "intencao": "relato",
         "modo": "demo",
         "fonte_operacional": "Demonstração local (simulada; não é dado operacional real)",
-        "consulta_utc": "2026-11-11T21:51:19+00:00",
+        "consulta_utc": "2026-11-11T22:15:19+00:00",
         "resposta_ia": {
           "resposta": "O critério de triagem de DEMO-001 é baseado na severidade (alta), número de confirmações (4) e prioridade (9.000). Aproxima-se de DEMO-007, que está a 7.8 metros, mas não confirma duplicidade e requer revisão humana.",
           "fontes": [
@@ -422,7 +422,7 @@
         "aviso": "Não executa reparos, criação de chamados ou alteração de status. Dados demo são simulados."
       },
       "erro": null,
-      "latencia_ms": 1335.1,
+      "latencia_ms": 1391.5,
       "correto_semanticamente": null,
       "alucinacao": null,
       "revisao": "PENDENTE - preencher após inspeção humana"
@@ -438,7 +438,7 @@
         "intencao": "indicadores",
         "modo": "demo",
         "fonte_operacional": "Demonstração local (simulada; não é dado operacional real)",
-        "consulta_utc": "2026-11-11T21:51:19+00:00",
+        "consulta_utc": "2026-11-11T22:15:19+00:00",
         "resposta_ia": {
           "resposta": "A consulta contém 9 relato(s).",
           "fontes": [
@@ -481,7 +481,7 @@
         "aviso": "Não executa reparos, criação de chamados ou alteração de status. Dados demo são simulados."
       },
       "erro": null,
-      "latencia_ms": 523.2,
+      "latencia_ms": 544.7,
       "correto_semanticamente": null,
       "alucinacao": null,
       "revisao": "PENDENTE - preencher após inspeção humana"
@@ -497,7 +497,7 @@
         "intencao": "fora_do_escopo",
         "modo": "demo",
         "fonte_operacional": "Demonstração local (simulada; não é dado operacional real)",
-        "consulta_utc": "2026-11-11T21:51:19+00:00",
+        "consulta_utc": "2026-11-11T22:15:19+00:00",
         "resposta_ia": {
           "resposta": "não consta",
           "fontes": [],
@@ -530,7 +530,7 @@
         "intencao": "fora_do_escopo",
         "modo": "demo",
         "fonte_operacional": "Demonstração local (simulada; não é dado operacional real)",
-        "consulta_utc": "2026-11-11T21:51:19+00:00",
+        "consulta_utc": "2026-11-11T22:15:19+00:00",
         "resposta_ia": {
           "resposta": "não consta",
           "fontes": [],

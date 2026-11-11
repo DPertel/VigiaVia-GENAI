@@ -4,7 +4,7 @@
 **Versão avaliada:** V4.6 · **Modelo local:** `qwen2.5:1.5b` via Ollama  
 **Projeto de origem:** [VigiaVia MVP](https://github.com/akiramrt/vigiavia-mvp)
  
-> **Vídeo de demonstração:** [INSERIR LINK DO VÍDEO DEMONSTRATIVO]  
+> **Vídeo de demonstração:** [\[INSERIR LINK DO VÍDEO DEMONSTRATIVO\]  ](https://youtu.be/-CpkvippNTM)
 > **Relatório PDF:** `relatorio/Relatorio_Final_VigiaVia_GenAI_FIAP.pdf`
 
 ## 01 — Integrantes
